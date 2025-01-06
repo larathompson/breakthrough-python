@@ -27,15 +27,17 @@ If the above has been successful, you should see (venv) ➜ python-challenge at 
 
 3.  This command will install all the dependencies listed in the requirements.txt file.
 
-````bash
+```bash
 pip install -r requirements.txt
+```
 
 4. This will run the flask app. Flask is a web framework for python.
+
 ```bash
 flask run
+```
 
 5. then visit http://localhost:5000
-````
 
 # What is the project?
 
