@@ -14,8 +14,8 @@ from services.country_service import CountryService
 app = Flask(__name__)
 
 
-countries = CountryService.get_all_countries()
-print(countries, " i am a list of all the countries")
+# countries = CountryService.get_all_countries()
+# print(countries, " i am a list of all the countries")
 
 spain = CountryService.get_country_by_name('spain')
 print(spain, "Spain info:")
@@ -33,7 +33,7 @@ def blog():
 
 @app.route('/countries')
 def countries():
-    return render_template('countries.html', countries=countries, european_countries=european_countries)
+    return render_template('countries.html', countries=european_countries)
 
 if __name__ == '__main__':
     app.run(debug=True)

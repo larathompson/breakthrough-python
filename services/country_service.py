@@ -16,7 +16,7 @@ class CountryService:
     @staticmethod
     def get_countries_for_region(region):
         response = requests.get(f'https://restcountries.com/v3.1/region/{region}')
-        return response.json()
+        return response.json() # returns a list of countries
 
     #  can you write a function that gets the capital city of a country? 
     #  use the examples above and take a look at https://restcountries.com/#endpoints-capital-city to help 
