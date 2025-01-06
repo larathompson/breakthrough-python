@@ -2,16 +2,16 @@
 
 If you want, you can view this Readme in a nicer way by pressing Ctrl+Shift+V (or Cmd+Shift+V on macOS) to see a live preview. Otherwise, you can just read it here in your text editor.
 
-Follow the steps below to get the project running. When it says `[project-name]` replace it with the name of the project. When it says bash, it means you should use the terminal to run the command. You do NOT need to write bash or ```.
+Follow the steps below to get the project running. When it says bash, it means you should use the terminal to run the command. You do NOT need to write bash or ```.
 
 Before you begin, ensure you have the following installed on your computer:
 
-**Python**: You need Python 3.6 or later. You can download it from the [official Python website](https://www.python.org/downloads/). Make sure to check the box that says "Add Python to PATH" during installation.
+**Python**: You need Python 3.3 or later. You should already have this installed and so you should not need to do anything for this step. You can download it from the [official Python website](https://www.python.org/downloads/). Make sure to check the box that says "Add Python to PATH" during installation.
 
 **Git**: This is required to clone the repository. You can download it from the [official Git website](https://git-scm.com/downloads).
 
 1. Clone repo:
-   `git clone [repo-url]`
+   `git clone https://github.com/larathompson/breakthrough-python.git`
 
 2. Navigate to the project and create a virtual environment:
    Note - a virtual environment is a way to easily setup all the dependencies for the project.
@@ -55,7 +55,7 @@ This is a simple web app that has various pages. It has a welcome page, a blog p
 
 1. **Starting the Application**:
 
-   - The application begins with `app.py`, which initializes the Flask app and starts the server. This file sets up the environment for the web application to run.
+   - The application begins with `app.py`, which initializes the Flask app and starts the server. This file sets up the environment for the web application to run. Note that we are using Flask, which is a lightweight and flexible Python web framework designed for building web applications quickly and with minimal overhead. For the sake of this work, we do not need to worry about the details of Flask.
 
 2. **Handling Requests**:
 
