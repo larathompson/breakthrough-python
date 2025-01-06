@@ -1,3 +1,6 @@
+/*  This is the file that controls the styles */
+/*  Look in the code for the class to see which code you are changing eg. .post is the class for the div in the blog.html file */
+/*  look at this website to help find some styling you can add https://www.w3schools.com/html/html_css.asp */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -29,10 +32,13 @@ nav a {
   border-radius: 5px;
 }
 
+/*  what happens if you add padding: or margin: to this class*/
+/* what happens if you add a border? */
+/* what happens if you change the width of the image? */
+/*  can you make the different lines of text different colours? How would you do this? */
 .post img {
   width: 100%;
   max-height: 300px;
-  /* object-fit: cover; */
 }
 
 .description {
@@ -42,4 +48,8 @@ nav a {
 .date {
   color: #888;
   font-size: 0.9rem;
+}
+
+.home {
+  color: red;
 }

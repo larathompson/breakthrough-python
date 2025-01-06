@@ -4,7 +4,7 @@
   <div>
     <h2>Europe</h2>
     <ul>
-      {% for country in european_countries %}
+      {% for country in countries %}
       <strong>Name:</strong>
       {{ country.name.common }}<br />
       <strong>Capital:</strong>
@@ -13,5 +13,6 @@
       {{ country.cca2 }} {% endfor %}
     </ul>
   </div>
+
+  {% endblock %}
 </div>
-{% endblock %}
