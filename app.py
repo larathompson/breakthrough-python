@@ -13,14 +13,14 @@ from services.country_service import CountryService
 
 app = Flask(__name__)
 
-
-# countries = CountryService.get_all_countries()
-# print(countries, " i am a list of all the countries")
-
 spain = CountryService.get_country_by_name('spain')
-print(spain, "Spain info:")
+# print(spain, "Spain info:")
 
-european_countries = CountryService.get_countries_for_region('europe')
+germany = CountryService.get_country_by_name('germany')
+# print(germany, "Germany info:")
+
+countriesList = spain + germany
+
 
 
 @app.route('/')
@@ -33,7 +33,8 @@ def blog():
 
 @app.route('/countries')
 def countries():
-    return render_template('countries.html', countries=european_countries)
+    print(type(countries)) 
+    return render_template('countries.html', countries=countriesList)
 
 if __name__ == '__main__':
     app.run(debug=True)

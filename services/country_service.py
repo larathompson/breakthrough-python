@@ -3,11 +3,7 @@ import requests
 # Can you practise using the https://restcountries.com/#api-endpoints-using-this-project to get the data on countries?
 class CountryService:
     
-    # @staticmethod
-    # def get_all_countries():
-    #     response = requests.get('https://restcountries.com/v3.1/all')
-    #     return response.json()
-    
+
     @staticmethod
     def get_country_by_name(name):
         response = requests.get(f'https://restcountries.com/v3.1/name/{name}?fullText=true')

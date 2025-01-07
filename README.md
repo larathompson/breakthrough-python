@@ -4,7 +4,7 @@ If you want, you can view this Readme in a nicer way by pressing Ctrl+Shift+V (o
 
 Follow the steps below to get the project running. When it says bash, it means you should use the terminal to run the command. You do NOT need to write bash or ```.
 
-Before you begin, ensure you have the following installed on your computer:
+Before you begin, ensure you have the following installed on your computer (you should have installed them both in earlier sessions so this may not be needed):
 
 **Python**: You need Python 3.3 or later. You should already have this installed and so you should not need to do anything for this step. You can download it from the [official Python website](https://www.python.org/downloads/). Make sure to check the box that says "Add Python to PATH" during installation.
 
@@ -86,13 +86,14 @@ This flow should help you understand how different parts of the codebase interac
 
 # Tasks
 
-Take a look through the code and see if you can understand how it works. Then, try to complete some of the tasks below. Also feel free to make any other changes you would like!
+Take a look through the code and see if you can understand how it works. Then, try to complete some of the tasks below. Also feel free to make any other changes you would like! Remember - this is your project and a bit of an experimnent - try things out and see what happens and getting stuck is all part of the process!
 
 ## Home page
 
 1. Can you edit the text on the homepage?
 2. Can you add an image to the homepage?
 3. Can you change the colour of the font?
+4. Can you add a border?
 
 ## Blog page
 
@@ -103,7 +104,7 @@ Take a look through the code and see if you can understand how it works. Then, t
 
 ## Countries page
 
-1. Can you change the layout of the countries page? Look at the blog page for an example.
+1. Can you change the layout of the countries page? Look at the blog page for an example. Could you put a country within a container?
 2. Can you add a new language field to the countries page?
 3. Can you filter for another region apart from Europe?
 
@@ -113,7 +114,7 @@ Take a look through the code and see if you can understand how it works. Then, t
    1. Can you add a new page to the navigation bar?
    2. Can you add a new route to the app?
    3. Can you add a new template to the templates folder?
-2. Can you some styles to the layout which show on all pages?
+2. Can you add some styles to the layout which show on all pages? Try out some of the styles listed here https://edtechbooks.org/elearning_hacker/common_css_properties and see what they do.
 
 # Tools to help
 
