@@ -121,7 +121,11 @@ This is a simple web app that has various pages. It has a welcome page, a blog p
    - The `requirements.txt` file lists all the external libraries needed for the project. These are installed in the virtual environment to ensure the app runs smoothly.
 
 7. **Sample Data**:
+
    - `seeds.py` provides sample data for blog posts, which can be displayed on the blog page. This file can be modified to add or update blog content.
+
+8. **CSS**:
+   - `static/styles.css` is the file that controls the styles. This file is used to style the web pages.
 
 This flow should help you understand how different parts of the codebase interact to create a functioning web application. If you have any specific questions or need further details, feel free to ask!
 
